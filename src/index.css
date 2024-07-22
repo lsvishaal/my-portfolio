@@ -1,0 +1,61 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.skill-logo {
+  display: inline-block;
+  transition: all 0.1s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.skill-logo img {
+  width: 80px;
+  height: 80px;
+  transform: perspective(600px) rotateY(0deg) rotateX(0deg);
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.typed-text {
+  font-family: 'Open Sans', sans-serif; /* Change to your desired font */
+}
+
+.skill-logo:hover img {
+  transform: perspective(600px) rotateY(30deg) rotateX(30deg);
+}
+
+.bloom-effect {
+  position: relative;
+  filter: grayscale(100%); /* Make the PNG grayscale */
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.bloom-effect:hover {
+  filter: none; /* Return to normal color on hover */
+  transform: scale(1.1);
+}
+
+.bloom-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  opacity: 1; /* Fully opaque */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.bloom-effect:hover::before {
+  filter: none; /* Remove filters to return to normal color */
+
+
+}
+
+.skill-logo img {
+  width: 80px;
+  height: 80px;
+  transform: perspective(600px) rotateY(0deg) rotateX(0deg);
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
