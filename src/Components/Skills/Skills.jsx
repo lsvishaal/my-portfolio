@@ -1,10 +1,10 @@
-import 
+import images from '../../assets/images';
 
 function Skills() {
 
     const skills = [
         // Frontend Technologies
-        { name: 'HTML', logo: 'src/assets/HTML5.svg', color: '#E34F26' },
+        { name: 'HTML', logo: 'public/Images/Bootstrap5.svg', color: '#E34F26' },
         { name: 'CSS', logo: 'src/assets/css.svg', color: '#1572B6' },
         { name: 'JavaScript', logo: 'src/assets/Javascript.svg', color: '#F7DF1E' },
         { name: 'React', logo: 'src/assets/react.svg', color: '#61DAFB' },
