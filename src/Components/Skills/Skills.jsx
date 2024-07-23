@@ -1,24 +1,24 @@
-import images from '../../assets/images';
+
 
 function Skills() {
 
     const skills = [
         // Frontend Technologies
-        { name: 'HTML', logo: 'public/Images/Bootstrap5.svg', color: '#E34F26' },
-        { name: 'CSS', logo: 'src/assets/css.svg', color: '#1572B6' },
-        { name: 'JavaScript', logo: 'src/assets/Javascript.svg', color: '#F7DF1E' },
-        { name: 'React', logo: 'src/assets/react.svg', color: '#61DAFB' },
-        { name: 'Tailwind CSS', logo: 'src/assets/Tailwindcss.svg', color: '#38B2AC' },
-        { name: 'Bootstrap', logo: 'src/assets/Bootstrap5.svg', color: '#7952B3' },
+        { name: 'HTML', logo: '/Images/HTML5.svg', color: '#E34F26' },
+        { name: 'CSS', logo: '/Images/CSS.svg', color: '#1572B6' },
+        { name: 'JavaScript', logo: '/Images/Javascript.svg', color: '#F7DF1E' },
+        { name: 'React', logo: '/Images/react.svg', color: '#61DAFB' },
+        { name: 'Tailwind CSS', logo: '/Images/TailwindCSS.svg', color: '#38B2AC' },
+        { name: 'Bootstrap', logo: '/Images/Bootstrap5.svg', color: '#7952B3' },
       
         // Backend Technologies
-        { name: 'Node.js', logo: 'src/assets/nodejs.svg', color: '#339933' },
-        { name: 'Python', logo: 'src/assets/python-logo.svg', color: '#FFD43B' },
-        { name: 'MySQL', logo: 'src/assets/mysql.svg', color: '#4479A1' },
+        { name: 'Node.js', logo: '/Images/NodeJS.svg', color: '#339933' },
+        { name: 'Python', logo: '/Images/python-logo.svg', color: '#FFD43B' },
+        { name: 'MySQL', logo: '/Images/MySQL.svg', color: '#4479A1' },
       
         // Version Control
-        { name: 'Git', logo: 'src/assets/git.svg', color: '#F05032' },
-      ];
+        { name: 'Git', logo: '/Images/GIT.svg', color: '#F05032' },
+    ];
 
   return (
     <div>
