@@ -25,7 +25,7 @@ function Skills() {
               <div
                 key={skill.name}
                 className="relative"
-                onMouseLeave={() => setBloomColor('#FFFFFF')}
+                onMouseLeave={() => ('#FFFFFF')}
                 onMouseEnter={() => {}} // Define the onMouseEnter event handler
               >
                 <img src={skill.logo} alt={skill.name} className="w-16 h-16 mx-auto bloom-effect" />
