@@ -18,7 +18,7 @@ function Skills() {
       
         // Version Control
         { name: 'Git', logo: '/Images/GIT.svg', color: '#F05032' },
-    ];
+    ]; 
 
   return (
     <div>
