@@ -10,13 +10,9 @@ function Skills() {
         { name: 'React', logo: '/Images/react.svg', color: '#61DAFB' },
         { name: 'Tailwind CSS', logo: '/Images/TailwindCSS.svg', color: '#38B2AC' },
         { name: 'Bootstrap', logo: '/Images/Bootstrap5.svg', color: '#7952B3' },
-      
-        // Backend Technologies
         { name: 'Node.js', logo: '/Images/NodeJS.svg', color: '#339933' },
         { name: 'Python', logo: '/Images/python-logo.svg', color: '#FFD43B' },
         { name: 'MySQL', logo: '/Images/MySQL.svg', color: '#4479A1' },
-      
-        // Version Control
         { name: 'Git', logo: '/Images/GIT.svg', color: '#F05032' },
     ]; 
 
